@@ -1,0 +1,214 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    padding: none;
+    margin: none;
+    /* background-image: url("logistica.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 73vw; */
+    /* opacity: 94%; */
+    /* display: flex; */
+}
+.login-form{
+
+    width: 83%;
+
+}
+.img{
+
+    overflow: hidden;
+    width: 25rem;   
+   
+   }
+.imgback{
+    background-image: url("logistica.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: -7rem; */
+    height: 100vh !important;
+    width: 110vw !important;
+    /* opacity: 95%; */
+}
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    border: 1px solid rgba(255, 4, 4, 0.062);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    height: 33rem;
+    width: 24rem;
+    background: radial-gradient(circle,#0B7040 0%,#58B54B 100%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.separador {
+    font-weight: bold;
+    font-size: 13pt;
+    margin-top: 12px;
+    color: white;
+}
+.footer-card {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 10px -5px 5px 0;
+    align-items: center;
+}
+form .label {
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.btn-login{
+    background: white;
+ /* border: 3px solid rgba(109, 9, 9, 0.815); */
+   border-radius:10px;
+    color:#9e0000;
+    outline: none;
+}
+.btn-login:hover{
+    background: #9e0000;
+ border: 3px solid rgba(109, 9, 9, 0.815);
+ color: white;
+
+}
+.btn-visitante{
+    background: white;
+ /* border: 3px solid rgba(109, 9, 9, 0.815); */
+   border-radius:10px;
+    color:#9e0000;
+}
+.btn-visitante:hover{
+    background: #9e0000;
+ border: 3px solid rgba(109, 9, 9, 0.815);
+ color:white;
+
+}
+.img_login{
+    display: flex;
+    width: 56%;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.esqueceu{
+    color: white;
+}
+ .esqueceu:hover{
+  color: white;  
+ }
+ @media (max-width: 768px) { 
+    .img{
+
+        overflow: hidden;
+        width: 25rem;   
+       
+       }
+    .imgback{
+        background:#f28a02;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: -7rem; */
+        height: 100vh !important;
+        width: 100vw !important;
+        opacity: 90%;
+    }
+    .login-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-login{
+        border: 1px solid rgba(255, 4, 4, 0.062);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
+        border-radius: 20px;
+        height: 32rem;
+        width: 22rem;
+        background: radial-gradient(circle,#0B7040 0%,#58B54B 100%);
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .separador {
+        font-weight: bold;
+        font-size: 13pt;
+        margin-top: 12px;
+        color: white;
+    }
+    .footer-card {
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        margin: 10px -5px 5px 0;
+        align-items: center;
+    }
+    form .label {
+        font-size: 14pt;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    
+    .btn-login{
+        background: white;
+     /* border: 3px solid rgba(109, 9, 9, 0.815); */
+       border-radius:10px;
+        color:#9e0000;
+        outline: none;
+    }
+    .btn-login:hover{
+        background: #9e0000;
+     border: 3px solid rgba(109, 9, 9, 0.815);
+     color: white;
+    
+    }
+    .btn-visitante{
+        background: white;
+     /* border: 3px solid rgba(109, 9, 9, 0.815); */
+       border-radius:10px;
+        color:#9e0000;
+    }
+    .btn-visitante:hover{
+        background: #9e0000;
+     border: 3px solid rgba(109, 9, 9, 0.815);
+     color:white;
+    
+    }
+    .img_login{
+        display: flex;
+        width: 55%;
+        align-items: center;
+        /* margin: auto; */
+        justify-content: center;
+        margin-left: 16%
+    }
+    .esqueceu{
+        color: white;
+    }
+     .esqueceu:hover{
+      color: white;  
+     }
+
+  }
+ 
