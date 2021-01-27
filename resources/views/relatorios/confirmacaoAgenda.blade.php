@@ -37,7 +37,7 @@
 
     <h6>Fornecedor: {{mb_strtoupper($registro->fornecedor)}}</h6>
     <br>
-    <h6>Entrega: Atacadão Pereira</h6>
+    <h6>Entrega: 3M DEVELOPERS</h6>
     <br>
     <h6>Agendado para dia: {{date('d/m/y',strtotime($registro->data))}}</h6>
     <br>

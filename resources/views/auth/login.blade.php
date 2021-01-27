@@ -4,8 +4,7 @@
 <div class="imgback">
 <div class="login">
     <div class="card card-login">
-        <div class="img">
-        <img class="img_login" src="{{asset('assets/img/logo/logo_pereira.png')}}" alt="logo_login">
+        <div>
         @error('email')
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
             Email ou senha Invalida
@@ -32,14 +31,14 @@
     <div class="form-group">
          <label class="label">Email</label>
          <br>
-         <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+         <input id="email" value="adm@adm.com.br" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
 
           
     </div>
     <div class="form-group">
         <label class="label">Senha</label>
         <br>
-        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
+        <input id="password" value="adm123456" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password">
     </div>
         <div class="form-group" >
             <div class="footer-card">

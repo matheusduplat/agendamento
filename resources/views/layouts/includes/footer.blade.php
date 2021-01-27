@@ -1,6 +1,6 @@
 <footer class="main-footer">
     
-<a target="_blank" href="https://www.instagram.com/3mdevelopers/">Desenvolvido pela 3M Developers</a>
+<a >Desenvolvido por Matheus Duplat</a>
     
     
   </footer>

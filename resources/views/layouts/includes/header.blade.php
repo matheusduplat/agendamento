@@ -55,10 +55,10 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a href="{{ route('home') }}" class="brand-link">
-    <img class="brand-image img-circle elevation-3"src="{{ asset('assets/img/logo/logorpereira.png')}}" alt="Agendamento Perini">
-         <span class="brand-text font-weight-light">Atacadão</span>         
-         <span class="brand-text font-weight-light">Pereira</span>
+  <a href="{{ route('home') }}" class="nametitulo">
+    <!-- <img class="brand-image img-circle elevation-3"src="{{ asset('assets/img/logo/logorpereira.png')}}" > -->
+         <span class="brand-text font-weight-light">Agendamento</span>         
+         <span class="brand-text font-weight-light">3MDEVELOPERS</span>
 
   </a>
 

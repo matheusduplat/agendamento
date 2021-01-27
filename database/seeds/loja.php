@@ -14,8 +14,8 @@ class loja extends Seeder
         DB::table('loja')->insert([
             
             'id'=> '15',
-            'nome' => 'Pereira',
-            'endereco' => 'Santo Amaro',
+            'nome' => '3M DEVELOPERS',
+            'endereco' => 'Salvador',
                    
         ]);
     }
