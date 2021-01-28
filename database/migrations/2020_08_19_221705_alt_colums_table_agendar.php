@@ -16,7 +16,6 @@ class AltColumsTableAgendar extends Migration
         Schema::table('agendar', function (Blueprint $table) {
             
             $table->string('volume_carga',255)->nullable()->change();
-            $table->string('valor_nota',255)->nullable()->change();
 
         });
     }

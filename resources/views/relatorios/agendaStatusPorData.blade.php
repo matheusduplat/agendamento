@@ -25,36 +25,30 @@
 <body>
 <h1 style="text-align: center">Agendamento Do dia {{date('d/m/y',strtotime($data_i))}} a {{date('d/m/y',strtotime($data_f))}}</h1>
     
-<div >
+<div class="container">
     
     
 
 
 <br><br>
 
-<table class="table tabela">
+    <table class="table tabela">
     <thead class="thead-dark">
       <tr >
         <th scope="col">FORNECEDOR</th>
         <th scope="col">AREA</th>
-        <th scope="col">Chegada</th>
         <th scope="col">Status</th>
-        <th scope="col">Obs</th>
-        <th scope="col">Descarga Inicio</th>
-        <th scope="col">Descarga FIm</th>
+        <th scope="col">Observação</th>
               </tr>
     </thead>
     @foreach($registros as $registro)
     <tbody >
         
-      <tr>
+      <tr  >
         <td>{{mb_strtoupper($registro->fornecedor)}}</td>
         <td>{{$registro->relArea->nome}}</td>        
-        <td>{{date('H:i',strtotime($registro->time))}}</td>
         <td>{{$registro->relStatus->nomeStatus}}</td> 
         <td>{{$registro->observacao}}</td>
-        <td>{{$registro->descarga_i}}</td>
-        <td>{{$registro->descarga_f}}</td>
         
       </tr>
       

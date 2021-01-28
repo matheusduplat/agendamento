@@ -21,24 +21,14 @@
 
         </div>
     </div>
-    <div class="form-row lado">
-    
-    <div class="form-group col-md-4 data">
-
+    <div class="form-group row">
         <label for="data" class="col-md-4 col-form-label text-md-right">{{ __('Data') }}</label>
-       
-            <input id="data" type="date" class="form-control " name="data"  required autocomplete="data">
-                   
-    </div>
-    <div class="form-group col-md-4 time">
-                    <label for="time" class="col-md-4 col-form-label text-md-right">{{ __('Hora') }}</label>
 
-        
-            <input id="time" type="time" class="form-control " name="time"  required autocomplete="time">
+        <div class="col-md-6">
+            <input id="data" type="date" class="form-control " name="data"  required autocomplete="data">
             
-        
+        </div>
     </div>
-</div>
     <div class="form-group row">
     <label class="col-md-4 col-form-label text-md-right" for="volume_carga">Volume Carga</label>                           
       <div class="col-md-6">

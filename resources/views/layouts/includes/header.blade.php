@@ -105,7 +105,7 @@
                 Relatorios
                 <i class="right fas fa-angle-left"></i>
               </p>
-            </a>
+            </a>            
             <!-- dia relatorio -->
             <ul class="nav nav-treeview">
               <li class="nav-item has-treeview">
@@ -131,7 +131,12 @@
              </li>
              </li>
   <!-- end dia -->
-
+  <li class="nav-item">
+              <a href="" data-toggle="modal" data-target="#modalDia"  class="nav-link">
+                <i class="nav-icon"></i>
+                 <p>Agendamento por data </p>
+              </a>
+            </li>
               <li class="nav-item">
                 <a href="" data-toggle="modal" data-target="#modalStatus"  class="nav-link">
                   <i class="nav-icon"></i>
@@ -152,12 +157,6 @@
                 </a>
               </li>
               @endif
-              <li class="nav-item">
-                <a href="" data-toggle="modal" data-target="#modalDia"  class="nav-link">
-                  <i class="nav-icon"></i>
-                   <p>Agendamento por data </p>
-                </a>
-              </li>
              
 
 

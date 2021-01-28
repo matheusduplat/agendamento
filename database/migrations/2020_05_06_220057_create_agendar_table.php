@@ -18,7 +18,7 @@ class CreateAgendarTable extends Migration
             $table->date('data');
             $table->integer('volume_carga');
             $table->string('fornecedor');
-            $table->float('valor_nota',15,3)->nullable();
+            $table->string('valor_nota')->nullable();
         });
     }
 
